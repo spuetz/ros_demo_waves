@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="oscillation" type="oscillation_node" name="wave_a">
+        <remap from="oscillation" to="/wave_a"/>
+    </node>
+    <node pkg="oscillation" type="oscillation_node" name="wave_b">
+        <remap from="oscillation" to="/wave_b"/>
+    </node>
+</launch>
